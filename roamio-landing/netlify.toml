@@ -1,0 +1,8 @@
+[build]
+  command = "cd roamio-landing && npm run build"
+  publish = "roamio-landing/.next"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200 
